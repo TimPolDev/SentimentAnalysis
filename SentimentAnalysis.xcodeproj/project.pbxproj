@@ -11,6 +11,7 @@
 		92EB7F982B63B2B800A546D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB7F972B63B2B800A546D6 /* ContentView.swift */; };
 		92EB7F9A2B63B2BA00A546D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EB7F992B63B2BA00A546D6 /* Assets.xcassets */; };
 		92EB7F9D2B63B2BA00A546D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EB7F9C2B63B2BA00A546D6 /* Preview Assets.xcassets */; };
+		92EB7FA42B63B76A00A546D6 /* MyTextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 92EB7FA32B63B76A00A546D6 /* MyTextClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		92EB7F972B63B2B800A546D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92EB7F992B63B2BA00A546D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92EB7F9C2B63B2BA00A546D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92EB7FA32B63B76A00A546D6 /* MyTextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyTextClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				92EB7F952B63B2B800A546D6 /* SentimentAnalysisApp.swift */,
 				92EB7F972B63B2B800A546D6 /* ContentView.swift */,
 				92EB7F992B63B2BA00A546D6 /* Assets.xcassets */,
+				92EB7FA32B63B76A00A546D6 /* MyTextClassifier.mlmodel */,
 				92EB7F9B2B63B2BA00A546D6 /* Preview Content */,
 			);
 			path = SentimentAnalysis;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EB7FA42B63B76A00A546D6 /* MyTextClassifier.mlmodel in Sources */,
 				92EB7F982B63B2B800A546D6 /* ContentView.swift in Sources */,
 				92EB7F962B63B2B800A546D6 /* SentimentAnalysisApp.swift in Sources */,
 			);
